@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.asif_pc.brainteaser.Score">
+
+    <TextView
+        android:id="@+id/textView_my_score"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="cursive"
+        android:text="Your Score:>>"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_home_score"
+        android:layout_width="150sp"
+        android:layout_height="75sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="cursive"
+        android:text="Home"
+        android:textColor="@color/button"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</RelativeLayout>

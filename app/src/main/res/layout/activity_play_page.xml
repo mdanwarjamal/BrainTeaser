@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.asif_pc.brainteaser.PlayPage">
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView_question"
+        android:layout_below="@+id/textView_question"
+        android:layout_marginTop="59dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:allowUndo="false"
+            android:cursorVisible="false"
+            android:defaultFocusHighlightEnabled="false"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/radioGroup"
+        android:layout_below="@+id/textView_question"
+        android:layout_marginTop="22dp"
+        android:fontFamily="cursive"
+        android:text="Select the Correct Option"
+        android:textColor="@color/title"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="150sp"
+        android:layout_height="75sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="cursive"
+        android:text="Next"
+        android:textColor="@color/button"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_timer"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/button_next"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/title"
+        android:textSize="36sp"
+        tools:text="00:40" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.asif_pc.brainteaser.HomePage">
+
+    <Button
+        android:id="@+id/button_play"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="cursive"
+        android:text="Play"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="cursive"
+        android:text="About"
+        android:textAlignment="center"
+        android:textColor="@color/button"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
